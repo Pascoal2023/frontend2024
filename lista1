@@ -1,0 +1,4 @@
+let cores = ['vermelho', 'azul', 'verde’];
+console.log(cores[1]); // Imprime:
+azulcores.push('amarelo’);
+console.log(cores.length); // Imprime: 4
