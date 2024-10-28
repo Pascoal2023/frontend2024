@@ -1,0 +1,11 @@
+let botao = document.getElementById('toggleTheme’);
+let corpo = document.body;
+botao.addEventListener('click', function() {    
+	if (corpo.style.backgroundColor == 'white’) {
+        		corpo.style.backgroundColor = 'black’;
+        		corpo.style.color = 'white’;
+ 	} else {        
+		corpo.style.backgroundColor = 'white’;
+       		corpo.style.color = 'black';    
+	}
+});
