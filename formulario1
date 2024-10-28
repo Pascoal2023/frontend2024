@@ -1,0 +1,6 @@
+let formulario = document.querySelector("#meuFormulario");
+formulario.addEventListener("submit", function(event) {    
+	event.preventDefault(); 
+	// impede o envio padrão do formulário    	let nome = document.querySelector("#nome").value;
+	console.log("Nome inserido:", nome);
+});
